@@ -7,7 +7,7 @@ public class Ball {
     private float yDelta;
     private int radius;
     ///Métodos
-    public Ball(float x, float y, float xDelta, float yDelta, int radius){
+    public Ball(float x, float y, int radius, float xDelta, float yDelta){
         this.x= x;
         this.y = y;
         this.xDelta = xDelta;
@@ -39,15 +39,17 @@ public class Ball {
         this.yDelta = yDelta;
     }
     public void move(){
-        x = x + xDelta;
-        y = y + yDelta;
+        float newx = x + xDelta;
+        float newy= y + yDelta;
+        x = newx;
+        y = newy;
     }
     public void reflectHorizontal(){
         xDelta = 0 - xDelta;
         yDelta = 0 - yDelta;
     }
     public String toString(){
-        return "Ball[" + x + "," + y + "], speed[" + xDelta + "," + yDelta + "]";
+        return "Ball[" + x + "," + y + "],speed[" + xDelta + "," + yDelta + "]";
     }
 
 
