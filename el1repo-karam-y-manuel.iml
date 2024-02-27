@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/EL1_Karam_Manuel/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EL1_Karam_Manuel/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/EL1_Karam_Manuel/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/EL1_Karam_Manuel/.idea" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
