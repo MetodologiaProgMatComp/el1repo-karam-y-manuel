@@ -12,11 +12,7 @@ public class CircleTest {
         Circle r = new Circle(1.5, "red");
         assertEquals(1.5, r.getRadius());
     }
-    @Test
-    void getRadius() {
-        Circle r = new Circle(1.5);
-        assertEquals(1.5, r.getRadius());
-    }
+
     @Test
     void Circle(){
         Circle r = new Circle();

@@ -8,6 +8,7 @@ public class Employee {
 
 
     public Employee (int id, String firstName, String lastName, int salary){
+        this.id = id;
         this.salary = salary;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -44,7 +45,7 @@ public class Employee {
         return salary;
     }
     public String toString (){
-        return "Employee[id =" + id + ", name = " + firstName + lastName + ", salary = " + salary + "]" ;
+        return "Employee[id =" + id + ", name = " + firstName +" "+ lastName + ", salary = " + salary + "]" ;
     }
 
 
